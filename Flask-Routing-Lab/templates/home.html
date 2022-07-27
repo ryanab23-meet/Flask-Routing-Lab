@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <h1>wellcome to my shop!!</h1>
-    <p>you can find here 
-     <link>   
+    <link rel="stylesheet" href="static/css/style.css">
 
 
 
 </head>
 <body>
+    <h1>Wellcome to my shop!!</h1>
+    <p>How can i help you?</p>
+    <h2>products</h2>
+    <ul>
+        {% for product in products %}
+        <li> {{product}} </li>
+        {% endfor %}
+    </ul>
+
+
 
 
 
