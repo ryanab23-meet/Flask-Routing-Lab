@@ -9,15 +9,35 @@
 
 </head>
 <body>
-    <h1>Wellcome to my shop!!</h1>
+    <h1>Wellcome to my online supermarket!!</h1>
     <p>How can i help you?</p>
     <h2>products</h2>
+
+    <a href='/milk'>
+
+    <img scr="milk.jpg">
+</a>
+
+    <a href='/egg'>
+
+    <img src="egg.jpg">
+</a>
+
+    <a href='/bread'>
+
+    <img src="bread.jpeg">
+</a> 
+
+    <a href='/meat'>
+
+    <img scr="meat.jpeg">    
+</a>
+
     <ul>
         {% for product in products %}
         <li> {{product}} </li>
         {% endfor %}
     </ul>
-
 
 
 
