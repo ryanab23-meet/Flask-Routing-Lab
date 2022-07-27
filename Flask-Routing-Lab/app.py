@@ -10,9 +10,7 @@ app = Flask(  # Create a flask app
 # Your code should be below
 @app.route('/')
 def home():
-    products = ["Milk,egg,bread,meat,"]
-    return render_template(
-    "home.html",products="products")
+    return render_template("home.html")
 
 @app.route('/milk')
 def milk():
